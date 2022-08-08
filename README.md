@@ -1,4 +1,5 @@
 # doudian-sdk-php
+composer安装  composer require zkl/doudian-sdk-php  
 doudian-sdk-php
 抖店开放平台API SDK PHP版本 
 
