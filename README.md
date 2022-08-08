@@ -1,10 +1,15 @@
 # doudian-sdk-php
 doudian-sdk-php
 抖店开放平台API SDK PHP版本 
+
 原版本为doudian-sdk-php-1.0.0-20220331152531
+
 仅仅修改为composer包,引入的方式使用命名空间(命名方式和composer文件路径一致)
+
 调用都和抖店原文档一致(https://op.jinritemai.com/docs/guide-docs/87/1072#doc_anchor0.8608195319890699)
+
 示例:(调用订单详情接口)
+
 <?php
 use DoudianSdkPhp\Api\OrderOrderDetail\OrderOrderDetailRequest;
 use DoudianSdkPhp\Api\OrderOrderDetail\Param\OrderOrderDetailParam;
