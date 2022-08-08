@@ -1,0 +1,19 @@
+{
+    "name": "zkl/doudian-sdk-php",
+    "version":"1.0",
+    "autoload": {
+        "psr-4": {
+            "DoudianSdkPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zhou kunlei",
+            "email": "zhoukunlei@nextmar.com"
+        }
+    ],
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=7.0.0"
+    }
+}
