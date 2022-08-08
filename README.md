@@ -10,11 +10,13 @@ doudian-sdk-php
 
 示例:(调用订单详情接口)
 
-<?php
+
+
 use DoudianSdkPhp\Api\OrderOrderDetail\OrderOrderDetailRequest;
 use DoudianSdkPhp\Api\OrderOrderDetail\Param\OrderOrderDetailParam;
 use DoudianSdkPhp\Core\AccessTokenBuilder;
 use DoudianSdkPhp\Core\GlobalConfig;
+
 
 //自用型应用获取Access Token
 GlobalConfig::getGlobalConfig()->appKey    = "XXXXXXXXXXXX";
@@ -24,11 +26,13 @@ if(!accessToken->isSuccess()) {
   //todo 
   return; 
 } 
+
 //构建Open Api请求参数 
 $request = new OrderOrderDetailRequest();
 $param = new OrderOrderDetailParam();
 $request->setParam($param);
 $param->shop_order_id = "XXXXXXXXXXXXXXX";
+
 //调用Open Api 
 $response = $request->execute($accessToken);
 var_dump($response);
